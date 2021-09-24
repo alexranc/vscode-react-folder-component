@@ -75,9 +75,9 @@ module.exports = {
 
       let filename = `${componentDir}/style.scss`;
 
-    //   if (type === 'functionalCssModule') {
-    //       filename = `${componentDir}/style.module.scss`;
-    //   }
+      if (type === 'functionalCssModule') {
+          filename = `${componentDir}/style.module.scss`;
+      }
 
       return this.createFile(filename, cssContent);
     }
