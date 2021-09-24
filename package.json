@@ -30,7 +30,7 @@
       },
       {
         "command": "extension.newReactFunctionalCssModuleAltComponent",
-        "title": "New Component (CSS modules alt)"
+        "title": "New Component (CSS modules *)"
       }
     ],
     "menus": {

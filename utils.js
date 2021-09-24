@@ -75,7 +75,7 @@ module.exports = {
 
       let filename = `${componentDir}/style.scss`;
 
-      if (type === 'functionalCssModule') {
+      if (type === 'functionalCssModule' || type === 'functionalCssModuleAlt' ) {
           filename = `${componentDir}/style.module.scss`;
       }
 
