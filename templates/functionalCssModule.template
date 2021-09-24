@@ -1,0 +1,12 @@
+import React from 'react';
+import "./style.module.scss";
+
+const {componentName} = () => {
+	return (
+		<>
+
+		</>
+	)
+};
+
+export default {componentName};
