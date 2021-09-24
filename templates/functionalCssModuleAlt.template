@@ -1,0 +1,14 @@
+import React from 'react';
+import * as style from './style.module.scss';
+
+const { style } = style;
+
+const {componentName} = () => {
+	return (
+		<>
+
+		</>
+	)
+};
+
+export default {componentName};

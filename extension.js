@@ -45,6 +45,10 @@ function activate(context) {
       type: 'functionalCssModule',
       commandID: 'extension.newReactFunctionalCssModuleComponent'
     },
+    {
+      type: 'functionalCssModuleAlt',
+      commandID: 'extension.newReactFunctionalCssModuleAltComponent'
+    },
   ];
 
   componentsList.forEach(comp => {

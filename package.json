@@ -14,7 +14,8 @@
   ],
   "activationEvents": [
     "onCommand:extension.newReactFunctionalComponent",
-    "onCommand:extension.newReactFunctionalCssModuleComponent"
+    "onCommand:extension.newReactFunctionalCssModuleComponent",
+    "onCommand:extension.newReactFunctionalCssModuleAltComponent"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -26,6 +27,10 @@
       {
         "command": "extension.newReactFunctionalCssModuleComponent",
         "title": "New Component (CSS modules)"
+      },
+      {
+        "command": "extension.newReactFunctionalCssModuleAltComponent",
+        "title": "New Component (CSS modules alt)"
       }
     ],
     "menus": {
@@ -36,6 +41,10 @@
         },
         {
           "command": "extension.newReactFunctionalCssModuleComponent",
+          "group": "navigation"
+        },
+        {
+          "command": "extension.newReactFunctionalCssModuleAltComponent",
           "group": "navigation"
         }
       ]
