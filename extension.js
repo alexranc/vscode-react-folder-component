@@ -16,6 +16,7 @@ function activate(context) {
         .then(inputValue => resolve(inputValue))
     )
       .then(val => {
+        if (!val) return;
         if (val.length === 0) {
           logger('error', 'Component name can not be empty!');
           throw new Error('Component name can not be empty!');
@@ -38,11 +39,11 @@ function activate(context) {
   const componentsList = [
     {
       type: 'functional',
-      commandID: 'extension.createReactFunctionalComponent'
+      commandID: 'extension.newReactFunctionalComponent'
     },
     {
       type: 'functionalCssModule',
-      commandID: 'extension.createReactFunctionalCssModuleComponent'
+      commandID: 'extension.newReactFunctionalCssModuleComponent'
     },
   ];
 

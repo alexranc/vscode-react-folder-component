@@ -13,29 +13,29 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onCommand:extension.createReactFunctionalComponent",
-    "onCommand:extension.createReactFunctionalCssModuleComponent"
+    "onCommand:extension.newReactFunctionalComponent",
+    "onCommand:extension.newReactFunctionalCssModuleComponent"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.createReactFunctionalComponent",
-        "title": "Create Component"
+        "command": "extension.newReactFunctionalComponent",
+        "title": "New Component"
       },
       {
-        "command": "extension.createReactFunctionalCssModuleComponent",
-        "title": "Create Component (CSS modules)"
+        "command": "extension.newReactFunctionalCssModuleComponent",
+        "title": "New Component (CSS modules)"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "extension.createReactFunctionalComponent",
+          "command": "extension.newReactFunctionalComponent",
           "group": "navigation"
         },
         {
-          "command": "extension.createReactFunctionalCssModuleComponent",
+          "command": "extension.newReactFunctionalCssModuleComponent",
           "group": "navigation"
         }
       ]
